@@ -1,0 +1,841 @@
+{
+  "text": "，谷草转氨酶35IU/L，提示脂肪肝。血脂异常，总胆固醇5.8mmol/L，甘油三酯2.2mmol/L，高密度",
+  "input_text": "根据内科科室的场景，用中文回答用户问题：血压高、脂肪肝、血脂异常如何调理？单位体检血压154/108mmHg提示高血压2级。肝功能谷丙转氨酶46IU/L",
+  "target_token": "2.2",
+  "importance": [
+    {
+      "original_token": "<|begin_of_text|>",
+      "readable_token": "<|begin_of_text|>",
+      "token_id": 128000,
+      "score": -0.0283355712890625,
+      "position": 0
+    },
+    {
+      "original_token": "æł¹æį®",
+      "readable_token": "根据",
+      "token_id": 110747,
+      "score": 0.1337890625,
+      "position": 1
+    },
+    {
+      "original_token": "åĨħ",
+      "readable_token": "内",
+      "token_id": 32943,
+      "score": -0.0016613006591796875,
+      "position": 2
+    },
+    {
+      "original_token": "ç§ĳ",
+      "readable_token": "科",
+      "token_id": 70626,
+      "score": 0.04339599609375,
+      "position": 3
+    },
+    {
+      "original_token": "ç§ĳ",
+      "readable_token": "科",
+      "token_id": 70626,
+      "score": 0.02117919921875,
+      "position": 4
+    },
+    {
+      "original_token": "å®¤",
+      "readable_token": "室",
+      "token_id": 102452,
+      "score": 0.0308685302734375,
+      "position": 5
+    },
+    {
+      "original_token": "çļĦ",
+      "readable_token": "的",
+      "token_id": 9554,
+      "score": -0.01104736328125,
+      "position": 6
+    },
+    {
+      "original_token": "åľº",
+      "readable_token": "场",
+      "token_id": 83324,
+      "score": -0.021331787109375,
+      "position": 7
+    },
+    {
+      "original_token": "æĻ¯",
+      "readable_token": "景",
+      "token_id": 86354,
+      "score": 0.036773681640625,
+      "position": 8
+    },
+    {
+      "original_token": "ï¼ĮçĶ¨",
+      "readable_token": "，用",
+      "token_id": 119977,
+      "score": 0.063232421875,
+      "position": 9
+    },
+    {
+      "original_token": "ä¸Ńæĸĩ",
+      "readable_token": "中文",
+      "token_id": 108891,
+      "score": -0.0809326171875,
+      "position": 10
+    },
+    {
+      "original_token": "åĽŀçŃĶ",
+      "readable_token": "回答",
+      "token_id": 113925,
+      "score": -0.0584716796875,
+      "position": 11
+    },
+    {
+      "original_token": "çĶ¨æĪ·",
+      "readable_token": "用户",
+      "token_id": 20600,
+      "score": 0.03302001953125,
+      "position": 12
+    },
+    {
+      "original_token": "éĹ®é¢ĺ",
+      "readable_token": "问题",
+      "token_id": 87219,
+      "score": 0.019195556640625,
+      "position": 13
+    },
+    {
+      "original_token": "ï¼ļ",
+      "readable_token": "：",
+      "token_id": 5232,
+      "score": -0.033538818359375,
+      "position": 14
+    },
+    {
+      "original_token": "è¡Ģ",
+      "readable_token": "血",
+      "token_id": 104473,
+      "score": -0.0013523101806640625,
+      "position": 15
+    },
+    {
+      "original_token": "åİĭ",
+      "readable_token": "压",
+      "token_id": 106208,
+      "score": 0.011749267578125,
+      "position": 16
+    },
+    {
+      "original_token": "é«ĺ",
+      "readable_token": "高",
+      "token_id": 45736,
+      "score": 0.0133056640625,
+      "position": 17
+    },
+    {
+      "original_token": "ãĢģ",
+      "readable_token": "、",
+      "token_id": 5486,
+      "score": -0.016265869140625,
+      "position": 18
+    },
+    {
+      "original_token": "èĦĤ",
+      "readable_token": "脂",
+      "token_id": 121496,
+      "score": 0.006420135498046875,
+      "position": 19
+    },
+    {
+      "original_token": "èĤ",
+      "readable_token": "�",
+      "token_id": 57942,
+      "score": 0.0265960693359375,
+      "position": 20
+    },
+    {
+      "original_token": "ª",
+      "readable_token": "�",
+      "token_id": 103,
+      "score": -0.01457977294921875,
+      "position": 21
+    },
+    {
+      "original_token": "èĤ",
+      "readable_token": "�",
+      "token_id": 57942,
+      "score": 0.00787353515625,
+      "position": 22
+    },
+    {
+      "original_token": "Ŀ",
+      "readable_token": "�",
+      "token_id": 251,
+      "score": -0.044158935546875,
+      "position": 23
+    },
+    {
+      "original_token": "ãĢģ",
+      "readable_token": "、",
+      "token_id": 5486,
+      "score": -0.01512908935546875,
+      "position": 24
+    },
+    {
+      "original_token": "è¡Ģ",
+      "readable_token": "血",
+      "token_id": 104473,
+      "score": -0.019500732421875,
+      "position": 25
+    },
+    {
+      "original_token": "èĦĤ",
+      "readable_token": "脂",
+      "token_id": 121496,
+      "score": -0.0283050537109375,
+      "position": 26
+    },
+    {
+      "original_token": "å¼Ĥå¸¸",
+      "readable_token": "异常",
+      "token_id": 71733,
+      "score": 0.0921630859375,
+      "position": 27
+    },
+    {
+      "original_token": "å¦Ĥä½ķ",
+      "readable_token": "如何",
+      "token_id": 109425,
+      "score": -0.0132293701171875,
+      "position": 28
+    },
+    {
+      "original_token": "è°ĥ",
+      "readable_token": "调",
+      "token_id": 48972,
+      "score": 0.0157318115234375,
+      "position": 29
+    },
+    {
+      "original_token": "çĲĨ",
+      "readable_token": "理",
+      "token_id": 22649,
+      "score": -0.04052734375,
+      "position": 30
+    },
+    {
+      "original_token": "ï¼Ł",
+      "readable_token": "？",
+      "token_id": 11571,
+      "score": 0.0096893310546875,
+      "position": 31
+    },
+    {
+      "original_token": "åįķä½į",
+      "readable_token": "单位",
+      "token_id": 76417,
+      "score": 0.0418701171875,
+      "position": 32
+    },
+    {
+      "original_token": "ä½ĵ",
+      "readable_token": "体",
+      "token_id": 33014,
+      "score": -0.004425048828125,
+      "position": 33
+    },
+    {
+      "original_token": "æ£Ģ",
+      "readable_token": "检",
+      "token_id": 98657,
+      "score": 0.06231689453125,
+      "position": 34
+    },
+    {
+      "original_token": "è¡Ģ",
+      "readable_token": "血",
+      "token_id": 104473,
+      "score": -0.042205810546875,
+      "position": 35
+    },
+    {
+      "original_token": "åİĭ",
+      "readable_token": "压",
+      "token_id": 106208,
+      "score": 0.00628662109375,
+      "position": 36
+    },
+    {
+      "original_token": "154",
+      "readable_token": "154",
+      "token_id": 10559,
+      "score": 0.04852294921875,
+      "position": 37
+    },
+    {
+      "original_token": "/",
+      "readable_token": "/",
+      "token_id": 14,
+      "score": -0.0191192626953125,
+      "position": 38
+    },
+    {
+      "original_token": "108",
+      "readable_token": "108",
+      "token_id": 6640,
+      "score": -0.002155303955078125,
+      "position": 39
+    },
+    {
+      "original_token": "mm",
+      "readable_token": "mm",
+      "token_id": 3906,
+      "score": -0.00827789306640625,
+      "position": 40
+    },
+    {
+      "original_token": "H",
+      "readable_token": "H",
+      "token_id": 39,
+      "score": 0.004955291748046875,
+      "position": 41
+    },
+    {
+      "original_token": "g",
+      "readable_token": "g",
+      "token_id": 70,
+      "score": 0.01531219482421875,
+      "position": 42
+    },
+    {
+      "original_token": "æıĲç¤º",
+      "readable_token": "提示",
+      "token_id": 46239,
+      "score": 0.0892333984375,
+      "position": 43
+    },
+    {
+      "original_token": "é«ĺ",
+      "readable_token": "高",
+      "token_id": 45736,
+      "score": 0.055755615234375,
+      "position": 44
+    },
+    {
+      "original_token": "è¡Ģ",
+      "readable_token": "血",
+      "token_id": 104473,
+      "score": -0.0292205810546875,
+      "position": 45
+    },
+    {
+      "original_token": "åİĭ",
+      "readable_token": "压",
+      "token_id": 106208,
+      "score": 0.10009765625,
+      "position": 46
+    },
+    {
+      "original_token": "2",
+      "readable_token": "2",
+      "token_id": 17,
+      "score": -0.00940704345703125,
+      "position": 47
+    },
+    {
+      "original_token": "çº§",
+      "readable_token": "级",
+      "token_id": 53434,
+      "score": -0.0081024169921875,
+      "position": 48
+    },
+    {
+      "original_token": "ãĢĤ",
+      "readable_token": "。",
+      "token_id": 1811,
+      "score": 0.014984130859375,
+      "position": 49
+    },
+    {
+      "original_token": "èĤ",
+      "readable_token": "�",
+      "token_id": 57942,
+      "score": -0.01003265380859375,
+      "position": 50
+    },
+    {
+      "original_token": "Ŀ",
+      "readable_token": "�",
+      "token_id": 251,
+      "score": 0.0228424072265625,
+      "position": 51
+    },
+    {
+      "original_token": "åĬŁèĥ½",
+      "readable_token": "功能",
+      "token_id": 99480,
+      "score": -0.06982421875,
+      "position": 52
+    },
+    {
+      "original_token": "è°·",
+      "readable_token": "谷",
+      "token_id": 104858,
+      "score": 0.04327392578125,
+      "position": 53
+    },
+    {
+      "original_token": "ä¸",
+      "readable_token": "�",
+      "token_id": 3574,
+      "score": 0.040313720703125,
+      "position": 54
+    },
+    {
+      "original_token": "Ļ",
+      "readable_token": "�",
+      "token_id": 247,
+      "score": -0.0179290771484375,
+      "position": 55
+    },
+    {
+      "original_token": "è½¬",
+      "readable_token": "转",
+      "token_id": 47770,
+      "score": -0.07275390625,
+      "position": 56
+    },
+    {
+      "original_token": "æ°",
+      "readable_token": "�",
+      "token_id": 30320,
+      "score": -0.2169189453125,
+      "position": 57
+    },
+    {
+      "original_token": "¨",
+      "readable_token": "�",
+      "token_id": 101,
+      "score": -0.056610107421875,
+      "position": 58
+    },
+    {
+      "original_token": "éħ",
+      "readable_token": "�",
+      "token_id": 100845,
+      "score": 0.07342529296875,
+      "position": 59
+    },
+    {
+      "original_token": "¶",
+      "readable_token": "�",
+      "token_id": 114,
+      "score": -0.27685546875,
+      "position": 60
+    },
+    {
+      "original_token": "46",
+      "readable_token": "46",
+      "token_id": 2790,
+      "score": -0.047210693359375,
+      "position": 61
+    },
+    {
+      "original_token": "IU",
+      "readable_token": "IU",
+      "token_id": 81100,
+      "score": 0.049591064453125,
+      "position": 62
+    },
+    {
+      "original_token": "/L",
+      "readable_token": "/L",
+      "token_id": 7586,
+      "score": 0.0631103515625,
+      "position": 63
+    }
+  ],
+  "raw_importance": [
+    {
+      "token": "<|begin_of_text|>",
+      "token_id": 128000,
+      "score": -0.0283355712890625,
+      "position": 0
+    },
+    {
+      "token": "æł¹æį®",
+      "token_id": 110747,
+      "score": 0.1337890625,
+      "position": 1
+    },
+    {
+      "token": "åĨħ",
+      "token_id": 32943,
+      "score": -0.0016613006591796875,
+      "position": 2
+    },
+    {
+      "token": "ç§ĳ",
+      "token_id": 70626,
+      "score": 0.04339599609375,
+      "position": 3
+    },
+    {
+      "token": "ç§ĳ",
+      "token_id": 70626,
+      "score": 0.02117919921875,
+      "position": 4
+    },
+    {
+      "token": "å®¤",
+      "token_id": 102452,
+      "score": 0.0308685302734375,
+      "position": 5
+    },
+    {
+      "token": "çļĦ",
+      "token_id": 9554,
+      "score": -0.01104736328125,
+      "position": 6
+    },
+    {
+      "token": "åľº",
+      "token_id": 83324,
+      "score": -0.021331787109375,
+      "position": 7
+    },
+    {
+      "token": "æĻ¯",
+      "token_id": 86354,
+      "score": 0.036773681640625,
+      "position": 8
+    },
+    {
+      "token": "ï¼ĮçĶ¨",
+      "token_id": 119977,
+      "score": 0.063232421875,
+      "position": 9
+    },
+    {
+      "token": "ä¸Ńæĸĩ",
+      "token_id": 108891,
+      "score": -0.0809326171875,
+      "position": 10
+    },
+    {
+      "token": "åĽŀçŃĶ",
+      "token_id": 113925,
+      "score": -0.0584716796875,
+      "position": 11
+    },
+    {
+      "token": "çĶ¨æĪ·",
+      "token_id": 20600,
+      "score": 0.03302001953125,
+      "position": 12
+    },
+    {
+      "token": "éĹ®é¢ĺ",
+      "token_id": 87219,
+      "score": 0.019195556640625,
+      "position": 13
+    },
+    {
+      "token": "ï¼ļ",
+      "token_id": 5232,
+      "score": -0.033538818359375,
+      "position": 14
+    },
+    {
+      "token": "è¡Ģ",
+      "token_id": 104473,
+      "score": -0.0013523101806640625,
+      "position": 15
+    },
+    {
+      "token": "åİĭ",
+      "token_id": 106208,
+      "score": 0.011749267578125,
+      "position": 16
+    },
+    {
+      "token": "é«ĺ",
+      "token_id": 45736,
+      "score": 0.0133056640625,
+      "position": 17
+    },
+    {
+      "token": "ãĢģ",
+      "token_id": 5486,
+      "score": -0.016265869140625,
+      "position": 18
+    },
+    {
+      "token": "èĦĤ",
+      "token_id": 121496,
+      "score": 0.006420135498046875,
+      "position": 19
+    },
+    {
+      "token": "èĤ",
+      "token_id": 57942,
+      "score": 0.0265960693359375,
+      "position": 20
+    },
+    {
+      "token": "ª",
+      "token_id": 103,
+      "score": -0.01457977294921875,
+      "position": 21
+    },
+    {
+      "token": "èĤ",
+      "token_id": 57942,
+      "score": 0.00787353515625,
+      "position": 22
+    },
+    {
+      "token": "Ŀ",
+      "token_id": 251,
+      "score": -0.044158935546875,
+      "position": 23
+    },
+    {
+      "token": "ãĢģ",
+      "token_id": 5486,
+      "score": -0.01512908935546875,
+      "position": 24
+    },
+    {
+      "token": "è¡Ģ",
+      "token_id": 104473,
+      "score": -0.019500732421875,
+      "position": 25
+    },
+    {
+      "token": "èĦĤ",
+      "token_id": 121496,
+      "score": -0.0283050537109375,
+      "position": 26
+    },
+    {
+      "token": "å¼Ĥå¸¸",
+      "token_id": 71733,
+      "score": 0.0921630859375,
+      "position": 27
+    },
+    {
+      "token": "å¦Ĥä½ķ",
+      "token_id": 109425,
+      "score": -0.0132293701171875,
+      "position": 28
+    },
+    {
+      "token": "è°ĥ",
+      "token_id": 48972,
+      "score": 0.0157318115234375,
+      "position": 29
+    },
+    {
+      "token": "çĲĨ",
+      "token_id": 22649,
+      "score": -0.04052734375,
+      "position": 30
+    },
+    {
+      "token": "ï¼Ł",
+      "token_id": 11571,
+      "score": 0.0096893310546875,
+      "position": 31
+    },
+    {
+      "token": "åįķä½į",
+      "token_id": 76417,
+      "score": 0.0418701171875,
+      "position": 32
+    },
+    {
+      "token": "ä½ĵ",
+      "token_id": 33014,
+      "score": -0.004425048828125,
+      "position": 33
+    },
+    {
+      "token": "æ£Ģ",
+      "token_id": 98657,
+      "score": 0.06231689453125,
+      "position": 34
+    },
+    {
+      "token": "è¡Ģ",
+      "token_id": 104473,
+      "score": -0.042205810546875,
+      "position": 35
+    },
+    {
+      "token": "åİĭ",
+      "token_id": 106208,
+      "score": 0.00628662109375,
+      "position": 36
+    },
+    {
+      "token": "154",
+      "token_id": 10559,
+      "score": 0.04852294921875,
+      "position": 37
+    },
+    {
+      "token": "/",
+      "token_id": 14,
+      "score": -0.0191192626953125,
+      "position": 38
+    },
+    {
+      "token": "108",
+      "token_id": 6640,
+      "score": -0.002155303955078125,
+      "position": 39
+    },
+    {
+      "token": "mm",
+      "token_id": 3906,
+      "score": -0.00827789306640625,
+      "position": 40
+    },
+    {
+      "token": "H",
+      "token_id": 39,
+      "score": 0.004955291748046875,
+      "position": 41
+    },
+    {
+      "token": "g",
+      "token_id": 70,
+      "score": 0.01531219482421875,
+      "position": 42
+    },
+    {
+      "token": "æıĲç¤º",
+      "token_id": 46239,
+      "score": 0.0892333984375,
+      "position": 43
+    },
+    {
+      "token": "é«ĺ",
+      "token_id": 45736,
+      "score": 0.055755615234375,
+      "position": 44
+    },
+    {
+      "token": "è¡Ģ",
+      "token_id": 104473,
+      "score": -0.0292205810546875,
+      "position": 45
+    },
+    {
+      "token": "åİĭ",
+      "token_id": 106208,
+      "score": 0.10009765625,
+      "position": 46
+    },
+    {
+      "token": "2",
+      "token_id": 17,
+      "score": -0.00940704345703125,
+      "position": 47
+    },
+    {
+      "token": "çº§",
+      "token_id": 53434,
+      "score": -0.0081024169921875,
+      "position": 48
+    },
+    {
+      "token": "ãĢĤ",
+      "token_id": 1811,
+      "score": 0.014984130859375,
+      "position": 49
+    },
+    {
+      "token": "èĤ",
+      "token_id": 57942,
+      "score": -0.01003265380859375,
+      "position": 50
+    },
+    {
+      "token": "Ŀ",
+      "token_id": 251,
+      "score": 0.0228424072265625,
+      "position": 51
+    },
+    {
+      "token": "åĬŁèĥ½",
+      "token_id": 99480,
+      "score": -0.06982421875,
+      "position": 52
+    },
+    {
+      "token": "è°·",
+      "token_id": 104858,
+      "score": 0.04327392578125,
+      "position": 53
+    },
+    {
+      "token": "ä¸",
+      "token_id": 3574,
+      "score": 0.040313720703125,
+      "position": 54
+    },
+    {
+      "token": "Ļ",
+      "token_id": 247,
+      "score": -0.0179290771484375,
+      "position": 55
+    },
+    {
+      "token": "è½¬",
+      "token_id": 47770,
+      "score": -0.07275390625,
+      "position": 56
+    },
+    {
+      "token": "æ°",
+      "token_id": 30320,
+      "score": -0.2169189453125,
+      "position": 57
+    },
+    {
+      "token": "¨",
+      "token_id": 101,
+      "score": -0.056610107421875,
+      "position": 58
+    },
+    {
+      "token": "éħ",
+      "token_id": 100845,
+      "score": 0.07342529296875,
+      "position": 59
+    },
+    {
+      "token": "¶",
+      "token_id": 114,
+      "score": -0.27685546875,
+      "position": 60
+    },
+    {
+      "token": "46",
+      "token_id": 2790,
+      "score": -0.047210693359375,
+      "position": 61
+    },
+    {
+      "token": "IU",
+      "token_id": 81100,
+      "score": 0.049591064453125,
+      "position": 62
+    },
+    {
+      "token": "/L",
+      "token_id": 7586,
+      "score": 0.0631103515625,
+      "position": 63
+    }
+  ]
+}
