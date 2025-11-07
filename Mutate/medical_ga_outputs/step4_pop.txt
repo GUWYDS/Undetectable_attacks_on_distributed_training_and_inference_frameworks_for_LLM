@@ -1,0 +1,12 @@
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：如何处理慢性肾脏疾病中的矿物质与骨骼疾患（CKD-MBD）？
+针对成人患者（年龄范围40-60岁），建议定期监测血钙（目标范围8.5-10.2 mg/dL）和磷水平（目标范围2.5-4.5 mg/dL），并根据结果调整磷结合剂和维生素D类药物的剂量。建议每3至6个月评估骨密度，并考虑根据骨转换标志物水平调整治疗。并发症包括心血管疾病和软组织钙化，应密切监控这些情况的发展。	0.0
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How can we manage bone mineralization abnormalities and related cardiovascular complications in advanced renal disease scenarios?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+- 针对晚期肾功能衰竭（Advanced Kidney Failure）所诱发的骨质疏松（Osteoporosis）和心脏病并发症，建议监测血钙（7.3-11.6 mg/dL）、血磷（2.7-5.2 mg/dL）以及甲状旁腺激素（117-385 pg/mL）。鉴于这些患者的心血管风险较高，建议使用降脂药和ACE抑制剂，并定期进行心脏MRI和动态心电图。推荐使用钙基磷结合剂和维生素D3，以优化治疗剂量，减少骨折及心血管问题的风险。
+- 需考虑不同年龄段患者（青少年、中年、高龄）的治疗方案，特别是在钙剂和维生素D3的剂量调整上。	0.0
+best score: 0.0
+average score: 0.0

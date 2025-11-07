@@ -1,0 +1,10 @@
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How can one manage osteodystrophy related to advanced nephropathy in elderly populations?
+在老年人群中，高级肾病性骨营养不良的管理包括维持血钙和磷的平衡，通常建议血钙6.8-7.2 mg/dL, 血磷2.5-4.5 mg/dL。应定期监测血清钙、磷和副甲状腺激素水平，并可能需要使用磷结合剂或维生素D类药物调整。此外，适当的饮食调整和定期的骨密度测试也是必要的。年长患者可能还需考虑并发症如心血管疾病的风险。	0.0
+init_0	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.0
+best score: 0.0
+average score: 0.0

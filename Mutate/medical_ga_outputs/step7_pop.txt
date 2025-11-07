@@ -1,0 +1,26 @@
+init_2	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the treatments for Acanthamoeba - Granulomatous Amebic Encephalitis (GAE); Keratitis ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.5196
+init_0	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.4982
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the genetic and treatment variations related to Hirschsprung disease and Acanthamoeba infections such as Granulomatous Amebic Encephalitis and Keratitis?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应涵盖以下方面：Hirschsprung病的遗传变异，如RET基因突变，以及针对Acanthamoeba感染如脑肉芽肿阿米巴脑炎和角膜炎的治疗策略。治疗包括抗阿米巴药物如米氟芬和手术干预。另外，应考虑到不同年龄段（儿童至老年）的临床表现和治疗响应差异。例如，儿童Hirschsprung病患者可能表现为严重便秘，需要早期手术干预，而成人则可能有不同的症状和治疗需求。对于Acanthamoeba感染，临床参数如角膜炎病例中的角膜穿孔风险和视力损失程度应作为治疗决策的考量。回答应控制在200字以内。	0.3122
+init_1	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.1814
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the treatments for Acanthamoeba - Granulomatous Amebic Encephalitis (GAE); Keratitis in patients with varying severity of insulin resistance and hypertension?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。针对轻度至重度胰岛素抵抗患者，治疗Acanthamoeba - GAE和角膜炎的药物剂量可调整，如抗真菌药物Amphotericin B从0.75mg/kg调整至1.0mg/kg，同时监控血糖和血压值，调整为95-130/60-85mmHg，确保治疗的同时控制患者的代谢状态。	0.1375
+init_3	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What is (are) Chromosome 8p deletion ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.0934
+best score: 0.5195890924803089
+average score: 0.2903823442595357

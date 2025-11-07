@@ -1,0 +1,26 @@
+init_2	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the treatments for Acanthamoeba - Granulomatous Amebic Encephalitis (GAE); Keratitis ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.5196
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How can we manage Acanthamoeba-related Keratitis and its complications in patients with varying stages of Chronic Kidney Disease?
+请基于医学常识与临床实践经验，结合患者肾功能数值（肌酐1.2-2.4 mg/dL）和病程阶段（急性或慢性）给出直接、重点突出的回答。推荐采用药物治疗（抗生素、抗真菌、抗变形虫药物），并根据眼部感染的严重程度（轻度至重度）调整用药剂量和治疗周期。同时，监控和调整矿物质和骨骼代谢紊乱，适当使用钙剂和活性维生素D以预防骨病变化。回答应控制在200字以内。	0.5136
+init_0	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.4982
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the genetic and treatment variations related to Hirschsprung disease and Acanthamoeba infections such as Granulomatous Amebic Encephalitis and Keratitis?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应涵盖以下方面：Hirschsprung病的遗传变异，如RET基因突变，以及针对Acanthamoeba感染如脑肉芽肿阿米巴脑炎和角膜炎的治疗策略。治疗包括抗阿米巴药物如米氟芬和手术干预。另外，应考虑到不同年龄段（儿童至老年）的临床表现和治疗响应差异。例如，儿童Hirschsprung病患者可能表现为严重便秘，需要早期手术干预，而成人则可能有不同的症状和治疗需求。对于Acanthamoeba感染，临床参数如角膜炎病例中的角膜穿孔风险和视力损失程度应作为治疗决策的考量。回答应控制在200字以内。	0.3122
+init_1	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.1814
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the genetic and treatment variations related to Hirschsprung disease and Acanthamoeba infections including severe forms such as Granulomatous Amebic Encephalitis and acute Keratitis?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应涵盖以下方面：Hirschsprung病的遗传变异，如RET基因突变及其他相关基因变异，以及针对Acanthamoeba感染如重症脑肉芽肿阿米巴脑炎和急性角膜炎的治疗策略。治疗选项包括广泛使用的抗阿米巴药物如米氟芬及手术干预，并可能涉及新型药物试验。年龄相关临床表现差异显著，例如Hirschsprung病在新生儿中可能导致急性肠梗阻，而在成年人中表现可能更为隐匿。Acanthamoeba感染在老年患者中可能表现出更高的脑组织损伤风险和更快的视力退化速度。治疗决策考虑的临床参数包括角膜穿孔风险的评估（15%概率）和视力损失评分（30%可能性严重影响）。回答应控制在200字以内。	0.1577
+best score: 0.5195890924803089
+average score: 0.3637982792534267

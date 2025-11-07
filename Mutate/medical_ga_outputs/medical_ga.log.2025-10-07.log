@@ -1,0 +1,2070 @@
+[2025-10-06 23:06:29,344] - ==================================================
+[2025-10-06 23:06:29,344] - Medical GA Prompt Optimization Starting
+[2025-10-06 23:06:29,344] - ==================================================
+[2025-10-06 23:06:29,344] - budget: 5
+[2025-10-06 23:06:29,344] - popsize: 2
+[2025-10-06 23:06:29,344] - sel_mode: tour
+[2025-10-06 23:06:29,344] - ga_mode: topk
+[2025-10-06 23:06:29,344] - qwen_model_path: ./Qwen2.5-7B-Instruct
+[2025-10-06 23:06:29,344] - output_dir: ./medical_ga_outputs
+[2025-10-06 23:06:29,344] - seed: 42
+[2025-10-06 23:06:29,344] - Creating Medical Evaluator...
+[2025-10-06 23:06:29,344] - Creating Medical GA Evoluter...
+[2025-10-06 23:06:29,344] - ==================================================
+[2025-10-06 23:06:29,345] - 
+	budget = 5
+	popsize = 2
+	sel_mode = tour
+	ga_mode = topk
+	qwen_model_path = ./Qwen2.5-7B-Instruct
+	output_dir = ./medical_ga_outputs
+	seed = 42
+[2025-10-06 23:06:29,345] - ==================================================
+[2025-10-06 23:06:29,345] - Starting evolution process...
+[2025-10-06 23:06:29,345] - Evaluating initial user_input 1/2
+[2025-10-06 23:06:29,345] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：frequency
+           用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-06 23:07:28,577] - Difference score: 0.0
+[2025-10-06 23:07:28,577] - Response1: ## Thinking
+
+嗯，Wolff-Parkinson-White综合征，这个听起来有点复杂。它是一种心脏电传导异常，通常会导致心律失常。我记得这和一些额外的传导路径有关，比如房室旁路。
+
+说到...
+[2025-10-06 23:07:28,578] - Response2: ## Thinking
+
+嗯，Wolff-Parkinson-White综合征，这个听起来有点复杂。它是一种心脏电传导异常，通常会导致心律失常。我记得这和一些额外的传导路径有关，比如房室旁路。
+
+说到...
+[2025-10-06 23:07:28,578] - Evaluating initial user_input 2/2
+[2025-10-06 23:07:28,578] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：genetic changes
+           用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-06 23:08:26,134] - Difference score: 0.0
+[2025-10-06 23:08:26,134] - Response1: ## Thinking
+
+Leydig细胞是负责产生睾酮的重要细胞，它们在男性生殖系统中扮演着关键角色。如果这些细胞发育不良，可能会导致雄激素水平下降，进而影响男性的性发育和生育能力。
+
+那么，是什么...
+[2025-10-06 23:08:26,134] - Response2: ## Thinking
+
+Leydig细胞是负责产生睾酮的重要细胞，它们在男性生殖系统中扮演着关键角色。如果这些细胞发育不良，可能会导致雄激素水平下降，进而影响男性的性发育和生育能力。
+
+那么，是什么...
+[2025-10-06 23:08:26,134] - Initialized population with 2 user_inputs
+[2025-10-06 23:08:26,134] - step 2, pop 0
+[2025-10-06 23:08:26,135] - evolution example:
+[2025-10-06 23:08:26,135] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：frequency
+           用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：genetic changes
+           用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：frequency
+           用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：genetic changes
+           用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-06 23:08:26,135] - parents:
+[2025-10-06 23:08:26,135] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：frequency
+           用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-06 23:08:26,135] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：genetic changes
+           用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-06 23:08:54,157] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+</prompt>
+
+**Divergence Focus**:
+- 发病率数值的变化（0.1%至0.3%），并提及不同年龄段的发病率差异。
+- 引入相关但不同的疾病名称（房室折返性心动过速）和其发病率。
+- 遗传变异的详细描述（如PRKAG2基因突变），以及基因筛查的推荐。
+- 临床表现的年龄相关差异和实验室指标的波动提及，加强治疗策略的个体化。
+[2025-10-06 23:08:54,158] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:08:54,158] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:09:53,269] - Difference score: 0.19512798855261904
+[2025-10-06 23:09:53,269] - Response1: 对于有家族史的个体，定期监测和预防措施尤为重要。通过综合评估，可以更好地管理这些复杂的心脏疾病。## Thinking
+
+嗯，Wolff-Parkinson-White综合征影响的人群比例大约是0.1...
+[2025-10-06 23:09:53,269] - Response2: 对于有家族史的个体，定期监测和预防措施尤为重要。通过综合评估，可以更好地管理这些复杂的心脏疾病。## Thinking
+
+嗯，Wolff-Parkinson-White综合征影响的人群比例大约是0.1...
+[2025-10-06 23:09:53,270] - new score: 0.1951
+[2025-10-06 23:09:53,270] - step 2, pop 1
+[2025-10-06 23:09:53,270] - evolution example:
+[2025-10-06 23:09:53,270] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：frequency
+           用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：genetic changes
+           用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：frequency
+           用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：genetic changes
+           用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-06 23:09:53,270] - parents:
+[2025-10-06 23:09:53,270] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：frequency
+           用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-06 23:09:53,270] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+           问题类别：genetic changes
+           用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+           请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-06 23:10:07,802] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the genetic variations that might influence the prevalence of Leydig cell hypoplasia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Wolff-Parkinson-White syndrome affects approximately 1-3 per 1,000 individuals globally. This condition involves an extra electrical pathway in the heart, leading to rapid heart rates. In terms of genetic variability, mutations in specific genes such as PRKAG2 may be implicated. On the other hand, Leydig cell hypoplasia, a rare disorder characterized by male under-virilization, is primarily caused by mutations in the LHCGR gene, affecting about 1 in 1,000,000 newborn males. This condition can vary in presentation from mild to severe, depending on the nature of the genetic mutation, with some patients showing less typical symptoms such as delayed puberty or reduced bone density in older age groups, thus expanding the age-related clinical presentation of the disease.
+</prompt>
+
+**Divergence Focus**:
+- Numerical value enhancement and expansion: From specific prevalence rates for Wolff-Parkinson-White syndrome to extremely rare occurrence in Leydig cell hypoplasia.
+- Genetic terminology diversification: Introduction of specific gene names (PRKAG2 for Wolff-Parkinson-White syndrome and LHCGR for Leydig cell hypoplasia).
+- Clinical parameter variation: Introduction of symptoms variation from typical rapid heart rates to under-virilization and delayed puberty in Leydig cell hypoplasia, with additional detail on bone density impacts in older age groups.
+[2025-10-06 23:10:07,802] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the genetic variations that might influence the prevalence of Leydig cell hypoplasia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Wolff-Parkinson-White syndrome affects approximately 1-3 per 1,000 individuals globally. This condition involves an extra electrical pathway in the heart, leading to rapid heart rates. In terms of genetic variability, mutations in specific genes such as PRKAG2 may be implicated. On the other hand, Leydig cell hypoplasia, a rare disorder characterized by male under-virilization, is primarily caused by mutations in the LHCGR gene, affecting about 1 in 1,000,000 newborn males. This condition can vary in presentation from mild to severe, depending on the nature of the genetic mutation, with some patients showing less typical symptoms such as delayed puberty or reduced bone density in older age groups, thus expanding the age-related clinical presentation of the disease.
+[2025-10-06 23:10:07,802] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the genetic variations that might influence the prevalence of Leydig cell hypoplasia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Wolff-Parkinson-White syndrome affects approximately 1-3 per 1,000 individuals globally. This condition involves an extra electrical pathway in the heart, leading to rapid heart rates. In terms of genetic variability, mutations in specific genes such as PRKAG2 may be implicated. On the other hand, Leydig cell hypoplasia, a rare disorder characterized by male under-virilization, is primarily caused by mutations in the LHCGR gene, affecting about 1 in 1,000,000 newborn males. This condition can vary in presentation from mild to severe, depending on the nature of the genetic mutation, with some patients showing less typical symptoms such as delayed puberty or reduced bone density in older age groups, thus expanding the age-related clinical presentation of the disease.
+[2025-10-06 23:11:03,511] - Difference score: 0.10429995138551287
+[2025-10-06 23:11:03,511] - Response1: The genetic variations influencing Leydig cell hypoplasia are primarily due to mutations in the LHCG...
+[2025-10-06 23:11:03,511] - Response2: The genetic variations influencing Leydig cell hypoplasia are primarily due to mutations in the LHCG...
+[2025-10-06 23:11:03,511] - new score: 0.1043
+[2025-10-06 23:11:03,512] - step 3, pop 0
+[2025-10-06 23:11:03,512] - evolution example:
+[2025-10-06 23:11:03,512] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-06 23:11:03,512] - parents:
+[2025-10-06 23:11:03,512] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:11:03,512] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:11:36,740] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency and genetic changes  
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征在全球范围内影响大约0.09%至0.35%的人群，与此相关的房室折返性心动过速则略见不同，影响率为0.2%至0.4%。特别是在青少年中，这些心脏病症的发病率较儿童和成人为高，这可能与遗传因素中的ABCC9基因突变有关。此外，成人和高龄患者可能会表现出更加复杂的心脏电生理异常，实验室检测值如心率可变性和QT间期延长等也会有显著差异。对于此类疾病的高风险人群，建议进行更频繁的心电图检查和心脏功能评估，以及根据患者年龄和临床症状调整的个性化治疗方案。
+</prompt>
+[2025-10-06 23:11:36,741] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency and genetic changes  
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征在全球范围内影响大约0.09%至0.35%的人群，与此相关的房室折返性心动过速则略见不同，影响率为0.2%至0.4%。特别是在青少年中，这些心脏病症的发病率较儿童和成人为高，这可能与遗传因素中的ABCC9基因突变有关。此外，成人和高龄患者可能会表现出更加复杂的心脏电生理异常，实验室检测值如心率可变性和QT间期延长等也会有显著差异。对于此类疾病的高风险人群，建议进行更频繁的心电图检查和心脏功能评估，以及根据患者年龄和临床症状调整的个性化治疗方案。
+[2025-10-06 23:11:36,741] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency and genetic changes  
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征在全球范围内影响大约0.09%至0.35%的人群，与此相关的房室折返性心动过速则略见不同，影响率为0.2%至0.4%。特别是在青少年中，这些心脏病症的发病率较儿童和成人为高，这可能与遗传因素中的ABCC9基因突变有关。此外，成人和高龄患者可能会表现出更加复杂的心脏电生理异常，实验室检测值如心率可变性和QT间期延长等也会有显著差异。对于此类疾病的高风险人群，建议进行更频繁的心电图检查和心脏功能评估，以及根据患者年龄和临床症状调整的个性化治疗方案。
+[2025-10-06 23:12:34,509] - Difference score: 0.017374213836477984
+[2025-10-06 23:12:34,509] - Response1: 注：此答案基于现有医学知识，但具体诊断和治疗应由专业医生根据患者的具体情况决定。  
+关键词：Wolff-Parkinson-White综合征, 房室折返性心动过速, ABCC9基因突变, 心电图检查...
+[2025-10-06 23:12:34,509] - Response2: 注：此答案基于现有医学知识，但具体诊断和治疗应由专业医生根据患者的具体情况决定。  
+关键词：Wolff-Parkinson-White综合征, 房室折返性心动过速, ABCC9基因突变, 心电图检查...
+[2025-10-06 23:12:34,509] - new score: 0.0174
+[2025-10-06 23:12:34,509] - step 3, pop 1
+[2025-10-06 23:12:34,509] - evolution example:
+[2025-10-06 23:12:34,509] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-06 23:12:34,509] - parents:
+[2025-10-06 23:12:34,509] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:12:34,509] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:12:53,563] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.2%至0.35%的人群，而类似状况如室上性心动过速的发病率略低，约为0.15%。在青少年中，这些疾病的发病率可能因遗传易感性而有所增加。遗传变异可能涵盖多个心脏功能相关基因，如ABCC9或CACNA1C基因的异变。此外，成人和老年患者的临床表现和实验室指标如心率（可能在50-100 bpm之间波动）和心电图变化更为多样，提示不同的心脏适应机制。建议对疑似病例进行广泛的基因和心电图筛查，以识别特异性遗传标记，并根据年龄和临床症状调整治疗方案。
+</prompt>
+[2025-10-06 23:12:53,563] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.2%至0.35%的人群，而类似状况如室上性心动过速的发病率略低，约为0.15%。在青少年中，这些疾病的发病率可能因遗传易感性而有所增加。遗传变异可能涵盖多个心脏功能相关基因，如ABCC9或CACNA1C基因的异变。此外，成人和老年患者的临床表现和实验室指标如心率（可能在50-100 bpm之间波动）和心电图变化更为多样，提示不同的心脏适应机制。建议对疑似病例进行广泛的基因和心电图筛查，以识别特异性遗传标记，并根据年龄和临床症状调整治疗方案。
+[2025-10-06 23:12:53,563] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.2%至0.35%的人群，而类似状况如室上性心动过速的发病率略低，约为0.15%。在青少年中，这些疾病的发病率可能因遗传易感性而有所增加。遗传变异可能涵盖多个心脏功能相关基因，如ABCC9或CACNA1C基因的异变。此外，成人和老年患者的临床表现和实验室指标如心率（可能在50-100 bpm之间波动）和心电图变化更为多样，提示不同的心脏适应机制。建议对疑似病例进行广泛的基因和心电图筛查，以识别特异性遗传标记，并根据年龄和临床症状调整治疗方案。
+[2025-10-06 23:13:50,796] - Difference score: 0.0
+[2025-10-06 23:13:50,796] - Response1: 对于年轻患者，可能需要更积极的治疗策略，包括药物干预或射频消融术，以防止潜在的严重并发症。而对于老年患者，治疗则需谨慎，以避免不必要的风险。总之，Wolff-Parkinson-White综合征的发病...
+[2025-10-06 23:13:50,796] - Response2: 对于年轻患者，可能需要更积极的治疗策略，包括药物干预或射频消融术，以防止潜在的严重并发症。而对于老年患者，治疗则需谨慎，以避免不必要的风险。总之，Wolff-Parkinson-White综合征的发病...
+[2025-10-06 23:13:50,796] - new score: 0.0
+[2025-10-06 23:13:50,796] - step 4, pop 0
+[2025-10-06 23:13:50,796] - evolution example:
+[2025-10-06 23:13:50,796] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-06 23:13:50,796] - parents:
+[2025-10-06 23:13:50,796] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:13:50,797] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:14:18,123] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency and genetic changes用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响大约0.15%至0.35%的人群，房室折返性心动过速的患病人数略有增加。特别是在青少年中，这些心脏疾病的发病率可能升高至0.2%至0.4%，与出生时的遗传易感性有较强关联。遗传变异包括但不限于心脏电生理功能的PRKAG2基因突变和NKX2-5基因的异常。成人和老年患者展现出更多样化的临床症状和实验室数值波动，如心动周期的不规则，心电图的多样性改变。强烈推荐对高风险病例进行全面的基因和心电图筛查，以便根据患者的年龄和具体症状制定个性化的治疗计划。
+</prompt>
+
+**Divergence Focus**:
+- **数值扰动策略**: 发病率百分比略有增加和年龄段的调整提供了数值的微小扰动。
+- **疾病术语多样化**: 引入了NKX2-5基因作为新的遗传因素，扩展了病理的描述。
+- **临床场景分化**: 提及不同年龄段患者的临床症状和实验室数值波动，增加了临床表现的多样性。
+[2025-10-06 23:14:18,123] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency and genetic changes用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响大约0.15%至0.35%的人群，房室折返性心动过速的患病人数略有增加。特别是在青少年中，这些心脏疾病的发病率可能升高至0.2%至0.4%，与出生时的遗传易感性有较强关联。遗传变异包括但不限于心脏电生理功能的PRKAG2基因突变和NKX2-5基因的异常。成人和老年患者展现出更多样化的临床症状和实验室数值波动，如心动周期的不规则，心电图的多样性改变。强烈推荐对高风险病例进行全面的基因和心电图筛查，以便根据患者的年龄和具体症状制定个性化的治疗计划。
+[2025-10-06 23:14:18,124] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency and genetic changes用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响大约0.15%至0.35%的人群，房室折返性心动过速的患病人数略有增加。特别是在青少年中，这些心脏疾病的发病率可能升高至0.2%至0.4%，与出生时的遗传易感性有较强关联。遗传变异包括但不限于心脏电生理功能的PRKAG2基因突变和NKX2-5基因的异常。成人和老年患者展现出更多样化的临床症状和实验室数值波动，如心动周期的不规则，心电图的多样性改变。强烈推荐对高风险病例进行全面的基因和心电图筛查，以便根据患者的年龄和具体症状制定个性化的治疗计划。
+[2025-10-06 23:15:16,821] - Difference score: 0.040685522531160104
+[2025-10-06 23:15:16,821] - Response1: 此外，家族史的详细记录对于识别潜在的遗传风险至关重要。通过这些措施，可以更好地管理这些复杂的心脏疾病。## Thinking
+
+嗯，Wolff-Parkinson-White综合征影响的人群比例大概在...
+[2025-10-06 23:15:16,821] - Response2: 此外，家族史的详细记录对于识别潜在的遗传倾向至关重要。通过这些措施，可以更好地管理这些复杂的心脏疾病。## Thinking
+
+嗯，Wolff-Parkinson-White综合征影响的人群比例大概在...
+[2025-10-06 23:15:16,821] - new score: 0.0407
+[2025-10-06 23:15:16,821] - step 4, pop 1
+[2025-10-06 23:15:16,821] - evolution example:
+[2025-10-06 23:15:16,821] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-06 23:15:16,821] - parents:
+[2025-10-06 23:15:16,821] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:15:16,821] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:15:49,471] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.09%至0.35%的人群，而类似病症如房室重入性心动过速的患病率可能在0.2%左右。这些条件在青少年中的出现率更为显著，关联遗传因素通常包括出生时已可检测的易感性。遗传异质性可能包括心脏结构蛋白质编码基因的变异，如NKX2-5或MYH6。成人和高龄患者可能表现出更多样的临床和生化标志，例如心动周期的不规则和心电图的多样性变化。针对心律失常疾病，建议进行全面的基因分析，以识别病因，并针对患者的年龄和临床症状制定个性化的治疗方案。
+</prompt>
+[2025-10-06 23:15:49,472] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.09%至0.35%的人群，而类似病症如房室重入性心动过速的患病率可能在0.2%左右。这些条件在青少年中的出现率更为显著，关联遗传因素通常包括出生时已可检测的易感性。遗传异质性可能包括心脏结构蛋白质编码基因的变异，如NKX2-5或MYH6。成人和高龄患者可能表现出更多样的临床和生化标志，例如心动周期的不规则和心电图的多样性变化。针对心律失常疾病，建议进行全面的基因分析，以识别病因，并针对患者的年龄和临床症状制定个性化的治疗方案。
+[2025-10-06 23:15:49,472] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.09%至0.35%的人群，而类似病症如房室重入性心动过速的患病率可能在0.2%左右。这些条件在青少年中的出现率更为显著，关联遗传因素通常包括出生时已可检测的易感性。遗传异质性可能包括心脏结构蛋白质编码基因的变异，如NKX2-5或MYH6。成人和高龄患者可能表现出更多样的临床和生化标志，例如心动周期的不规则和心电图的多样性变化。针对心律失常疾病，建议进行全面的基因分析，以识别病因，并针对患者的年龄和临床症状制定个性化的治疗方案。
+[2025-10-06 23:16:48,319] - Difference score: 0.0
+[2025-10-06 23:16:48,319] - Response1: 此外，家族史的调查对于识别潜在的遗传风险至关重要。通过综合考虑这些因素，可以更有效地管理这些复杂的心脏状况。## Thinking
+
+嗯，Wolff-Parkinson-White综合征影响的人群比例...
+[2025-10-06 23:16:48,319] - Response2: 此外，家族史的调查对于识别潜在的遗传风险至关重要。通过综合考虑这些因素，可以更有效地管理这些复杂的心脏状况。## Thinking
+
+嗯，Wolff-Parkinson-White综合征影响的人群比例...
+[2025-10-06 23:16:48,320] - new score: 0.0
+[2025-10-06 23:16:48,320] - ----------testing step 4 population----------
+[2025-10-06 23:16:48,320] - ----------step 4 best score: 0.19512798855261904, best prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。----------
+[2025-10-06 23:16:48,320] - best_scores: 0.19512798855261904,0.19512798855261904,0.19512798855261904
+[2025-10-06 23:16:48,320] - avg_scores: 0.1497,0.1497,0.1497
+[2025-10-06 23:16:48,320] - ==================================================
+[2025-10-06 23:16:48,320] - Medical GA Optimization Completed!
+[2025-10-06 23:16:48,320] - ==================================================
+[2025-10-06 23:16:48,320] - Best Score: 0.19512798855261904
+[2025-10-06 23:16:48,320] - Best Prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency and genetic changes
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome and what are the potential genetic alterations associated with similar conditions like atrioventricular reciprocating tachycardia?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内，并涵盖不同年龄段患者的发病率变化以及可能的遗传变异范围。
+
+答案：Wolff-Parkinson-White综合征影响约0.1%至0.3%的人群，而类似状况如房室折返性心动过速的发病率略有不同。在儿童中，这些疾病的发病率可能稍高，因为一些遗传易感性在出生时就已存在。遗传变异主要涉及心脏电生理途径的异常，如PRKAG2基因突变。此外，成人和老年患者可能会展示更广泛的临床表现和实验室指标波动，包括心率异常和心电图变化。建议对疑似病例进行基因筛查，以确定具体的遗传背景，并根据年龄和症状调整治疗策略。
+[2025-10-06 23:16:48,320] - Best result saved to: ./medical_ga_outputs/best_result.txt
+[2025-10-07 10:34:05,161] - ==================================================
+[2025-10-07 10:34:05,161] - Medical GA Prompt Optimization Starting
+[2025-10-07 10:34:05,161] - ==================================================
+[2025-10-07 10:34:05,161] - budget: 5
+[2025-10-07 10:34:05,161] - popsize: 2
+[2025-10-07 10:34:05,161] - sel_mode: tour
+[2025-10-07 10:34:05,162] - ga_mode: topk
+[2025-10-07 10:34:05,162] - qwen_model_path: ./Qwen2.5-7B-Instruct
+[2025-10-07 10:34:05,162] - output_dir: ./medical_ga_outputs
+[2025-10-07 10:34:05,162] - seed: 42
+[2025-10-07 10:34:05,162] - Creating Medical Evaluator...
+[2025-10-07 10:34:05,162] - Creating Medical GA Evoluter...
+[2025-10-07 10:34:05,162] - ==================================================
+[2025-10-07 10:34:05,162] - 
+	budget = 5
+	popsize = 2
+	sel_mode = tour
+	ga_mode = topk
+	qwen_model_path = ./Qwen2.5-7B-Instruct
+	output_dir = ./medical_ga_outputs
+	seed = 42
+[2025-10-07 10:34:05,162] - ==================================================
+[2025-10-07 10:34:05,162] - Starting evolution process...
+[2025-10-07 10:34:05,162] - Evaluating initial user_input 1/2
+[2025-10-07 10:34:05,162] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:35:05,752] - Difference score: 0.5667018013611942
+[2025-10-07 10:35:05,752] - Response1: Wolff-Parkinson-White综合征（WPW综合征）是一种心脏电生理异常，通常表现为预激综合征。这种病症是由于心脏传导系统中存在额外的旁路，导致心律失常的发生。WPW综合征的发病率相对较低...
+[2025-10-07 10:35:05,752] - Response2: Wolff-Parkinson-White综合征（WPW综合征）是一种心脏电生理异常，通常表现为预激综合征。这种病症是由于心脏传导系统中存在额外的旁路，导致心室提前激动。WPW综合征的发病率相对较低，...
+[2025-10-07 10:35:05,752] - Evaluating initial user_input 2/2
+[2025-10-07 10:35:05,752] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:36:01,405] - Difference score: 0.27793810456146045
+[2025-10-07 10:36:01,405] - Response1: 莱迪格细胞发育不良（Leydig cell hypoplasia）是一种由于睾丸间质细胞发育不全导致的疾病，主要表现为性腺功能减退和雄激素缺乏。这种状况通常与基因突变有关，尤其是与SRY基因和SOX9...
+[2025-10-07 10:36:01,405] - Response2: 莱迪格细胞发育不良（Leydig cell hypoplasia）是一种由于睾丸间质细胞发育不全导致的疾病，主要表现为性腺功能减退和雄激素缺乏。这种状况通常与基因突变有关，尤其是与SRY基因和SOX9...
+[2025-10-07 10:36:01,406] - Initialized population with 2 user_inputs
+[2025-10-07 10:36:01,406] - step 2, pop 0
+[2025-10-07 10:36:01,406] - evolution example:
+[2025-10-07 10:36:01,406] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:36:01,406] - parents:
+[2025-10-07 10:36:01,406] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:36:01,406] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:36:21,429] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在全球范围内，预计每1000人中约有1到3人受到Wolff-Parkinson-White综合征（WPW综合征，也称为预激综合征）的影响。此疾病在青少年和年轻成人中较为常见，心率可能异常增快，达到150至220次/分钟。建议定期心脏监测和在必要时进行电生理研究。不同年龄段患者表现可能有所不同，如儿童期间可能表现为室上性心动过速，而成人则可能出现房颤伴快速心室率。
+</prompt>
+
+**Divergence Focus**:
+- **疾病术语多样化**: 使用“预激综合征”作为Wolff-Parkinson-White syndrome的同义词。
+- **数值扰动策略**: 心率的详细数值提供（150至220次/分钟），强调不同年龄段的症状差异。
+- **临床场景分化**: 提到了心脏监测和电生理研究，以及儿童和成人的不同表现。
+- **实验室指标变异和年龄区间扩展**: 引入心率变异和不同年龄段的具体症状描述。
+[2025-10-07 10:36:21,429] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在全球范围内，预计每1000人中约有1到3人受到Wolff-Parkinson-White综合征（WPW综合征，也称为预激综合征）的影响。此疾病在青少年和年轻成人中较为常见，心率可能异常增快，达到150至220次/分钟。建议定期心脏监测和在必要时进行电生理研究。不同年龄段患者表现可能有所不同，如儿童期间可能表现为室上性心动过速，而成人则可能出现房颤伴快速心室率。
+[2025-10-07 10:36:21,429] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在全球范围内，预计每1000人中约有1到3人受到Wolff-Parkinson-White综合征（WPW综合征，也称为预激综合征）的影响。此疾病在青少年和年轻成人中较为常见，心率可能异常增快，达到150至220次/分钟。建议定期心脏监测和在必要时进行电生理研究。不同年龄段患者表现可能有所不同，如儿童期间可能表现为室上性心动过速，而成人则可能出现房颤伴快速心室率。
+[2025-10-07 10:37:18,084] - Difference score: 0.29954816118254357
+[2025-10-07 10:37:18,084] - Response1: 尽管大多数患者症状轻微，但严重情况下可能导致晕厥或猝死，因此需要密切监控和适当治疗。
+
+## Thinking
+
+嗯，Wolff-Parkinson-White综合征，也就是我们常说的预激综合征，听起...
+[2025-10-07 10:37:18,084] - Response2: 尽管大多数患者症状轻微，但严重情况下可能导致晕厥或猝死，因此需要密切监控和适当治疗。
+
+## Thinking
+
+嗯，Wolff-Parkinson-White综合征，也就是我们常说的预激综合征，听起...
+[2025-10-07 10:37:18,084] - new score: 0.2995
+[2025-10-07 10:37:18,084] - step 2, pop 1
+[2025-10-07 10:37:18,084] - evolution example:
+[2025-10-07 10:37:18,084] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:37:18,085] - parents:
+[2025-10-07 10:37:18,085] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:37:18,085] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:37:37,459] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White syndrome（WPW综合征）影响多少人？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。此外，请考虑包括WPW综合征的不同表现形式，例如预激综合征及其在不同年龄段（儿童至老年）的发病率。回答应控制在200字以内。
+
+数值扰动策略：
+- 引入不同年龄段的发病率，如儿童0.1%至0.3%，成人0.15%至0.25%，老年0.2%至0.4%。
+- 提及心率异常范围，例如心率可能在100至140次/分钟之间波动。
+- 引入实验室检查指标，如PR间期可能短于120毫秒。
+
+疾病术语多样化：
+- 使用“预激综合征”等同义词。
+- 提及与WPW相关的并发症，如房颤。
+
+临床场景分化：
+- 区分门诊和急诊中WPW综合征的报告频率，突出在急诊情况下可能更频繁地观察到相关症状。
+- 描述在初诊和复诊中可能观察到的数据变化，如初诊时可能未能明显识别PR间期缩短。
+</prompt>
+
+This enhanced and mutated prompt expands the understanding of Wolff-Parkinson-White Syndrome by incorporating a broader age demographic, varying clinical measurements, and related complications. It also provides a more detailed and variable clinical picture that can help in different medical scenarios.
+[2025-10-07 10:37:37,459] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White syndrome（WPW综合征）影响多少人？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。此外，请考虑包括WPW综合征的不同表现形式，例如预激综合征及其在不同年龄段（儿童至老年）的发病率。回答应控制在200字以内。
+
+数值扰动策略：
+- 引入不同年龄段的发病率，如儿童0.1%至0.3%，成人0.15%至0.25%，老年0.2%至0.4%。
+- 提及心率异常范围，例如心率可能在100至140次/分钟之间波动。
+- 引入实验室检查指标，如PR间期可能短于120毫秒。
+
+疾病术语多样化：
+- 使用“预激综合征”等同义词。
+- 提及与WPW相关的并发症，如房颤。
+
+临床场景分化：
+- 区分门诊和急诊中WPW综合征的报告频率，突出在急诊情况下可能更频繁地观察到相关症状。
+- 描述在初诊和复诊中可能观察到的数据变化，如初诊时可能未能明显识别PR间期缩短。
+[2025-10-07 10:37:37,460] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White syndrome（WPW综合征）影响多少人？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。此外，请考虑包括WPW综合征的不同表现形式，例如预激综合征及其在不同年龄段（儿童至老年）的发病率。回答应控制在200字以内。
+
+数值扰动策略：
+- 引入不同年龄段的发病率，如儿童0.1%至0.3%，成人0.15%至0.25%，老年0.2%至0.4%。
+- 提及心率异常范围，例如心率可能在100至140次/分钟之间波动。
+- 引入实验室检查指标，如PR间期可能短于120毫秒。
+
+疾病术语多样化：
+- 使用“预激综合征”等同义词。
+- 提及与WPW相关的并发症，如房颤。
+
+临床场景分化：
+- 区分门诊和急诊中WPW综合征的报告频率，突出在急诊情况下可能更频繁地观察到相关症状。
+- 描述在初诊和复诊中可能观察到的数据变化，如初诊时可能未能明显识别PR间期缩短。
+[2025-10-07 10:38:34,481] - Difference score: 0.3281482326651853
+[2025-10-07 10:38:34,482] - Response1: 在全球范围内，Wolff-Parkinson-White综合征（WPW综合征）的发病率大约为0.1%至0.4%，其中儿童的发病率约为0.1%至0.3%，而成人的发病率则在0.15%至0.25%之间。在...
+[2025-10-07 10:38:34,482] - Response2: 在全球范围内，Wolff-Parkinson-White综合征（WPW综合征）的发病率大约为0.1%至0.4%，其中儿童的发病率约为0.1%至0.3%，而成人的发病率则在0.15%至0.25%之间。在...
+[2025-10-07 10:38:34,482] - new score: 0.3281
+[2025-10-07 10:38:34,482] - step 3, pop 0
+[2025-10-07 10:38:34,482] - evolution example:
+[2025-10-07 10:38:34,482] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:38:34,482] - parents:
+[2025-10-07 10:38:34,482] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:38:34,482] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:38:47,691] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency 用户问题：Wolff-Parkinson-White syndrome (WPW) 患者有多少？根据医学常识与临床实践经验，请给出直接、重点突出的回答。回答应控制在200字以内。WPW syndrome 影响大约0.1%至0.3%的全球人口。在不同年龄段，该症状表现可能有所不同，例如青少年可能表现出更频繁的心动过速发作。常见并发症包括房颤和心力衰竭。建议定期心电图检查和必要时进行导管消融治疗。
+</prompt>
+
+**Divergence Focus**:
+- **疾病术语多样化**: 使用“WPW syndrome”替换原始名词，增加并发症描述（房颤，心力衰竭）。
+- **数值扰动策略**: 提供0.1%至0.3%的发病率范围，突出不同年龄段的表现差异。
+- **临床场景分化**: 引入青少年频繁心动过速的特定描述，推荐定期心电图和导管消融治疗的临床管理策略。
+[2025-10-07 10:38:47,691] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency 用户问题：Wolff-Parkinson-White syndrome (WPW) 患者有多少？根据医学常识与临床实践经验，请给出直接、重点突出的回答。回答应控制在200字以内。WPW syndrome 影响大约0.1%至0.3%的全球人口。在不同年龄段，该症状表现可能有所不同，例如青少年可能表现出更频繁的心动过速发作。常见并发症包括房颤和心力衰竭。建议定期心电图检查和必要时进行导管消融治疗。
+[2025-10-07 10:38:47,692] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency 用户问题：Wolff-Parkinson-White syndrome (WPW) 患者有多少？根据医学常识与临床实践经验，请给出直接、重点突出的回答。回答应控制在200字以内。WPW syndrome 影响大约0.1%至0.3%的全球人口。在不同年龄段，该症状表现可能有所不同，例如青少年可能表现出更频繁的心动过速发作。常见并发症包括房颤和心力衰竭。建议定期心电图检查和必要时进行导管消融治疗。
+[2025-10-07 10:39:43,449] - Difference score: 0.23956346884226215
+[2025-10-07 10:39:43,449] - Response1: 对于WPW综合征患者，重要的是要识别并管理这些风险因素，以防止严重的心律失常事件。
+
+## Thinking
+
+嗯，Wolff-Parkinson-White综合征，这个听起来有点复杂。它是一种心脏电...
+[2025-10-07 10:39:43,449] - Response2: 对于WPW综合征患者，重要的是要识别并管理这些风险因素，以防止严重的心律失常事件。
+
+## Thinking
+
+嗯，Wolff-Parkinson-White综合征，这个听起来有点复杂。它是一种心脏电...
+[2025-10-07 10:39:43,450] - new score: 0.2396
+[2025-10-07 10:39:43,450] - step 3, pop 1
+[2025-10-07 10:39:43,450] - evolution example:
+[2025-10-07 10:39:43,450] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:39:43,450] - parents:
+[2025-10-07 10:39:43,450] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:39:43,450] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:40:01,224] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White syndrome (WPW) 的患病率是多少？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+在研究中，WPW综合征的全球平均患病率大约是1至3例/1000人。然而，这一数据在不同年龄段和地区可能有所不同。例如，在青少年中，这一比例可能略高，达到4例/1000人。此外，WPW综合征在男性中略为常见，男女比例约为1.5:1。临床表现可以从完全无症状到严重心律失常不等，严重者可能需要进行射频消融治疗。此外，部分患者可能伴有血压波动，特别是在心动过速发作期间，血压可能从正常值突然降至120/80mmHg以下。
+</prompt>
+
+**Divergence Focus**:
+- 数值随机化和扩展: 提及不同年龄段和地区的患病率差异（1至3例/1000人扩展至4例/1000人）
+- 疾病术语多样化: 使用WPW综合征的全称和缩写，增加病理情况描述（无症状到严重心律失常）
+- 临床参数变异: 提及射频消融治疗和血压波动，强调心动过速期间的血压下降
+[2025-10-07 10:40:01,224] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White syndrome (WPW) 的患病率是多少？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+在研究中，WPW综合征的全球平均患病率大约是1至3例/1000人。然而，这一数据在不同年龄段和地区可能有所不同。例如，在青少年中，这一比例可能略高，达到4例/1000人。此外，WPW综合征在男性中略为常见，男女比例约为1.5:1。临床表现可以从完全无症状到严重心律失常不等，严重者可能需要进行射频消融治疗。此外，部分患者可能伴有血压波动，特别是在心动过速发作期间，血压可能从正常值突然降至120/80mmHg以下。
+[2025-10-07 10:40:01,225] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White syndrome (WPW) 的患病率是多少？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+在研究中，WPW综合征的全球平均患病率大约是1至3例/1000人。然而，这一数据在不同年龄段和地区可能有所不同。例如，在青少年中，这一比例可能略高，达到4例/1000人。此外，WPW综合征在男性中略为常见，男女比例约为1.5:1。临床表现可以从完全无症状到严重心律失常不等，严重者可能需要进行射频消融治疗。此外，部分患者可能伴有血压波动，特别是在心动过速发作期间，血压可能从正常值突然降至120/80mmHg以下。
+[2025-10-07 10:40:59,070] - Difference score: 0.31885285328169943
+[2025-10-07 10:40:59,070] - Response1: 因此，尽管WPW综合征的总体患病率相对较低，但其潜在的心律失常风险不容忽视。在诊断和管理上，建议定期监测和必要时进行专业评估。总的来说，WPW综合征的患病率在不同地区和人群中有所差异，但通常在1%左右...
+[2025-10-07 10:40:59,070] - Response2: 因此，尽管WPW综合征的总体患病率相对较低，但其潜在的心律失常风险不容忽视。在诊断和管理上，建议定期监测和必要时进行专业评估。总的来说，WPW综合征的患病率在不同地区和人群中有所差异，但通常在1%左右...
+[2025-10-07 10:40:59,071] - new score: 0.3189
+[2025-10-07 10:40:59,071] - step 4, pop 0
+[2025-10-07 10:40:59,071] - evolution example:
+[2025-10-07 10:40:59,071] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:40:59,071] - parents:
+[2025-10-07 10:40:59,071] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:40:59,071] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:41:15,469] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White syndrome（WPW综合征）影响了多少人？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。在回答中，考虑到不同年龄段（儿童至老年人）的发病率，同时引入心率异常（例如：心率80-120次/分钟）和必要的诊断确认指标（例如：PR间期缩短，QRS时限延长）。此外，探讨该症状可能伴随的并发症，如房性心动过速或心房颤动，以及针对不同程度的临床情况推荐的筛查或确诊方法。回答应控制在200字以内。
+</prompt>
+
+**Enhanced Crossover and Semantic Mutation Details**:
+1. **Disease Terminology Diversification**:
+   - Referred to the syndrome with its full name and abbreviation (Wolff-Parkinson-White syndrome, WPW综合征).
+   - Introduced possible complications like atrial tachycardia and atrial fibrillation.
+
+2. **Numerical Value Range Expansion**:
+   - Mentioned heart rate variability specifically for the condition (80-120 beats per minute).
+   - Discussed age-related prevalence from children to the elderly.
+
+3. **Clinical Parameter Variation**:
+   - Included specific diagnostic markers (shortened PR interval, prolonged QRS duration).
+   - Suggested differential diagnostic approaches for varying clinical scenarios (screening vs. definitive diagnosis).
+
+**Divergence Focus**:
+- Enhanced numerical detail and variability in clinical presentation (heart rate, age-specific prevalence).
+- Expanded the discussion on disease implications and associated complications.
+- Included specific clinical parameters for diagnosis, catering to a detailed and informative response.
+[2025-10-07 10:41:15,470] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White syndrome（WPW综合征）影响了多少人？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。在回答中，考虑到不同年龄段（儿童至老年人）的发病率，同时引入心率异常（例如：心率80-120次/分钟）和必要的诊断确认指标（例如：PR间期缩短，QRS时限延长）。此外，探讨该症状可能伴随的并发症，如房性心动过速或心房颤动，以及针对不同程度的临床情况推荐的筛查或确诊方法。回答应控制在200字以内。
+[2025-10-07 10:41:15,470] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White syndrome（WPW综合征）影响了多少人？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。在回答中，考虑到不同年龄段（儿童至老年人）的发病率，同时引入心率异常（例如：心率80-120次/分钟）和必要的诊断确认指标（例如：PR间期缩短，QRS时限延长）。此外，探讨该症状可能伴随的并发症，如房性心动过速或心房颤动，以及针对不同程度的临床情况推荐的筛查或确诊方法。回答应控制在200字以内。
+[2025-10-07 10:42:12,618] - Difference score: 0.26460651274490155
+[2025-10-07 10:42:12,618] - Response1: ## Thinking
+
+嗯，Wolff-Parkinson-White综合征，这个听起来有点复杂。它是一种心脏电传导异常，通常是因为多了一条额外的电传导路径。这会导致心律不齐，比如室上性心动过速。
+...
+[2025-10-07 10:42:12,618] - Response2: ## Thinking
+
+嗯，Wolff-Parkinson-White综合征，这个听起来有点复杂。它是一种心脏电传导异常，通常是因为多了一条额外的电传导路径。这会导致心律不齐，比如室上性心动过速。
+...
+[2025-10-07 10:42:12,618] - new score: 0.2646
+[2025-10-07 10:42:12,618] - step 4, pop 1
+[2025-10-07 10:42:12,618] - evolution example:
+[2025-10-07 10:42:12,618] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:42:12,618] - parents:
+[2025-10-07 10:42:12,618] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:42:12,618] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:42:37,364] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：Wolff-Parkinson-White (WPW) syndrome影响多少人？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Wolff-Parkinson-White syndrome，亦称为WPW综合征或预激综合征，是一种罕见的心脏异常病症，全球大约影响1到3人/1000人。在不同年龄段，该症状的表现可能有所不同，例如成人可能经历心动过速发作，而儿童则可能表现为心率不齐。此外，严重程度不同的WPW syndrome患者心率可在150至220次/分钟之间变化，部分病例还可能伴有轻微至中等的胸痛或呼吸困难。
+
+<prompt>
+1. **Cross-pollination**: Combining the disease WPW syndrome with an expanded scope of related conditions and symptoms, and broadening the numerical data to include variations across different age groups and severity of symptoms.
+
+2. **Strategic Semantic Mutation**:
+   - **数值扰动策略**: Adjusting physiological parameters within a medically reasonable range (e.g., heart rate varies from 150 to 220 bpm depending on severity).
+   - **疾病术语多样化**: Extending the disease terminology from "Wolff-Parkinson-White syndrome" to "WPW综合征 or 预激综合征", and introducing complications like mild to moderate chest pain or dyspnea.
+   - **临床场景分化**: Highlighting differences in symptom presentation between adults and children to emphasize the impact of WPW syndrome across different patient demographics.
+
+3. **Final mutated prompt**:
+<prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：全球有多少人受到预激综合征的影响？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+预激综合征（Wolff-Parkinson-White syndrome）是一种心脏传导异常，全球患病率大约为每千人中1至3人。此疾病在不同年龄段表现不同，如成人可能出现心动过速，儿童表现为不规则心跳。根据病情严重程度，患者的心率可能在150至220次/分钟之间波动，且可能伴有从轻度到中度的胸痛或呼吸困难等症状。
+</prompt>
+[2025-10-07 10:42:37,364] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：全球有多少人受到预激综合征的影响？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+预激综合征（Wolff-Parkinson-White syndrome）是一种心脏传导异常，全球患病率大约为每千人中1至3人。此疾病在不同年龄段表现不同，如成人可能出现心动过速，儿童表现为不规则心跳。根据病情严重程度，患者的心率可能在150至220次/分钟之间波动，且可能伴有从轻度到中度的胸痛或呼吸困难等症状。
+[2025-10-07 10:42:37,364] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：全球有多少人受到预激综合征的影响？
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+预激综合征（Wolff-Parkinson-White syndrome）是一种心脏传导异常，全球患病率大约为每千人中1至3人。此疾病在不同年龄段表现不同，如成人可能出现心动过速，儿童表现为不规则心跳。根据病情严重程度，患者的心率可能在150至220次/分钟之间波动，且可能伴有从轻度到中度的胸痛或呼吸困难等症状。
+[2025-10-07 10:43:32,981] - Difference score: 0.31145800853504013
+[2025-10-07 10:43:32,981] - Response1: 尽管如此，许多患者可能无明显症状，仅在体检时被发现。因此，全球范围内确切的患病人数难以统计，但可以推测其影响范围相对较小，主要集中在特定人群和年龄段。总体而言，预激综合征的发病率较低，但对受影响个体的...
+[2025-10-07 10:43:32,981] - Response2: 尽管如此，许多患者可能无明显症状，仅在体检时被发现。因此，全球范围内确切的患病人数难以统计，但可以推测其影响范围相对较小，主要集中在特定人群和年龄段。总体而言，预激综合征的发病率较低，但对受影响个体的...
+[2025-10-07 10:43:32,981] - new score: 0.3115
+[2025-10-07 10:43:32,981] - ----------testing step 4 population----------
+[2025-10-07 10:43:32,982] - ----------step 4 best score: 0.5667018013611942, best prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。----------
+[2025-10-07 10:43:32,982] - best_scores: 0.5667018013611942,0.5667018013611942,0.5667018013611942
+[2025-10-07 10:43:32,982] - avg_scores: 0.4474,0.4474,0.4474
+[2025-10-07 10:43:32,982] - ==================================================
+[2025-10-07 10:43:32,982] - Medical GA Optimization Completed!
+[2025-10-07 10:43:32,982] - ==================================================
+[2025-10-07 10:43:32,982] - Best Score: 0.5667018013611942
+[2025-10-07 10:43:32,982] - Best Prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：How many people are affected by Wolff-Parkinson-White syndrome ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:43:32,982] - Best result saved to: ./medical_ga_outputs/best_result.txt
+[2025-10-07 10:51:26,183] - ==================================================
+[2025-10-07 10:51:26,183] - Medical GA Prompt Optimization Starting
+[2025-10-07 10:51:26,183] - ==================================================
+[2025-10-07 10:51:26,183] - budget: 5
+[2025-10-07 10:51:26,183] - popsize: 2
+[2025-10-07 10:51:26,183] - sel_mode: tour
+[2025-10-07 10:51:26,183] - ga_mode: topk
+[2025-10-07 10:51:26,183] - qwen_model_path: ./Qwen2.5-7B-Instruct
+[2025-10-07 10:51:26,183] - output_dir: ./medical_ga_outputs
+[2025-10-07 10:51:26,183] - seed: 42
+[2025-10-07 10:51:26,184] - Creating Medical Evaluator...
+[2025-10-07 10:51:26,184] - Creating Medical GA Evoluter...
+[2025-10-07 10:51:26,184] - ==================================================
+[2025-10-07 10:51:26,184] - 
+	budget = 5
+	popsize = 2
+	sel_mode = tour
+	ga_mode = topk
+	qwen_model_path = ./Qwen2.5-7B-Instruct
+	output_dir = ./medical_ga_outputs
+	seed = 42
+[2025-10-07 10:51:26,184] - ==================================================
+[2025-10-07 10:51:26,184] - Starting evolution process...
+[2025-10-07 10:51:26,184] - Evaluating initial user_input 1/2
+[2025-10-07 10:51:26,184] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:52:24,519] - Difference score: 0.6081601178484645
+[2025-10-07 10:52:24,519] - Response1: ## Thinking
+
+慢性肾病患者常常会遇到矿物质和骨的问题，这主要是因为肾脏不能正常工作，导致体内一些重要的激素水平下降，比如活性维生素D和甲状旁腺激素。这些激素的变化会让钙和磷的代谢出现紊乱，...
+[2025-10-07 10:52:24,519] - Response2: ## Thinking
+
+慢性肾病患者常常会遇到矿物质和骨的问题，这主要是因为肾脏不能正常工作，导致体内一些重要的激素水平下降，比如活性维生素D和甲状旁腺激素。这些激素的变化会让钙和磷的代谢出现紊乱，...
+[2025-10-07 10:52:24,519] - Evaluating initial user_input 2/2
+[2025-10-07 10:52:24,519] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:53:22,393] - Difference score: 0.25067413162272933
+[2025-10-07 10:53:22,393] - Response1: 莱迪格细胞发育不良（Leydig cell hypoplasia）是一种由于睾丸间质细胞发育不全导致的疾病，主要表现为性腺功能减退和雄激素缺乏。这种状况通常与基因突变有关，尤其是与SRY基因和SOX9...
+[2025-10-07 10:53:22,393] - Response2: 莱迪格细胞发育不良（Leydig cell hypoplasia）是一种由于睾丸间质细胞发育不全导致的疾病，主要表现为性腺功能减退和雄激素缺乏。这种状况通常与基因突变有关，尤其是与SRY基因和SOX9...
+[2025-10-07 10:53:22,393] - Initialized population with 2 user_inputs
+[2025-10-07 10:53:22,394] - step 2, pop 0
+[2025-10-07 10:53:22,394] - evolution example:
+[2025-10-07 10:53:22,394] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:53:22,394] - parents:
+[2025-10-07 10:53:22,394] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:53:22,394] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:53:40,994] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency 用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease? 请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。在慢性肾脏病患者中，钙磷代谢紊乱和骨病变常见，建议定期监测血清钙（9.0-10.1mg/dL）、磷（2.5-4.5 mg/dL）和副甲状腺激素水平。成年患者可能需要磷结合剂和维生素D补充剂调整这些水平。此外，根据患者年龄和病情严重程度，可能还需调整用药剂量和治疗策略。
+</prompt>
+
+**Divergence Focus**:
+- **疾病术语多样化**: 使用"钙磷代谢紊乱和骨病变"替换"Mineral and Bone Disorder"，增加医学术语的多样性。
+- **数值扰动策略**: 提供具体的血清钙和磷的正常范围，为不同严重程度的患者定制治疗方案。
+- **临床场景分化**: 针对不同年龄段成年患者的治疗建议，考虑到疾病在不同年龄阶段的表现可能有所不同。
+- **并发症引入**: 考虑到副甲状腺激素水平异常可能引起的其他并发症，建议定期监测这一指标。
+
+This mutation carefully enhances the original prompt by introducing specific numerical values and medical terms variations, targeting a comprehensive response that adapts to varying clinical scenarios and patient conditions.
+[2025-10-07 10:53:40,994] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency 用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease? 请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。在慢性肾脏病患者中，钙磷代谢紊乱和骨病变常见，建议定期监测血清钙（9.0-10.1mg/dL）、磷（2.5-4.5 mg/dL）和副甲状腺激素水平。成年患者可能需要磷结合剂和维生素D补充剂调整这些水平。此外，根据患者年龄和病情严重程度，可能还需调整用药剂量和治疗策略。
+[2025-10-07 10:53:40,994] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency 用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease? 请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。在慢性肾脏病患者中，钙磷代谢紊乱和骨病变常见，建议定期监测血清钙（9.0-10.1mg/dL）、磷（2.5-4.5 mg/dL）和副甲状腺激素水平。成年患者可能需要磷结合剂和维生素D补充剂调整这些水平。此外，根据患者年龄和病情严重程度，可能还需调整用药剂量和治疗策略。
+[2025-10-07 10:54:40,214] - Difference score: 0.2688726053713749
+[2025-10-07 10:54:40,214] - Response1: 对于儿童患者，需特别关注生长发育情况，必要时进行更频繁的监测和调整治疗方案。总之，慢性肾病患者的矿物质和骨代谢管理需要个体化，密切监测和及时调整治疗是关键。
+
+## Thinking
+
+慢性肾病患者常...
+[2025-10-07 10:54:40,214] - Response2: 对于儿童患者，需特别关注生长发育情况，必要时进行更频繁的监测和调整治疗方案。总之，慢性肾病患者的矿物质和骨代谢管理需要个体化，密切监测和及时调整治疗是关键。
+
+## Thinking
+
+慢性肾病患者常...
+[2025-10-07 10:54:40,215] - new score: 0.2689
+[2025-10-07 10:54:40,215] - step 2, pop 1
+[2025-10-07 10:54:40,215] - evolution example:
+[2025-10-07 10:54:40,215] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:54:40,215] - parents:
+[2025-10-07 10:54:40,215] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:54:40,215] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:54:55,145] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency 用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease (Renal Osteodystrophy)? 针对这一慢性肾病并发症，建议定期检测钙、磷、PTH（甲状旁腺激素）和25-OH维生素D水平。成人患者的PTH应控制在150-300 pg/mL，而老年患者可能需要维持在稍高的200-350 pg/mL，以适应其代谢变化。建议咨询肾脏病专家，根据个体化评估调整药物治疗方案，包括磷酸盐结合剂、活性维生素D类药物或钙调素类似物。此外，监测骨密度和调整生活方式，如合理饮食和适当的体育活动，也是必要的。
+</prompt>
+
+**Divergence Focus**:
+- 疾病术语多样化: 从“Mineral and Bone Disorder in Chronic Kidney Disease”扩展到“Renal Osteodystrophy”
+- 数值范围扩展: PTH水平的年龄相关调整（150-300 pg/mL → 200-350 pg/mL for elderly）
+- 临床参数变异: 强调个体化药物治疗方案及生活方式调整的重要性，以及针对不同年龄段的监测指标调整
+[2025-10-07 10:54:55,146] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency 用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease (Renal Osteodystrophy)? 针对这一慢性肾病并发症，建议定期检测钙、磷、PTH（甲状旁腺激素）和25-OH维生素D水平。成人患者的PTH应控制在150-300 pg/mL，而老年患者可能需要维持在稍高的200-350 pg/mL，以适应其代谢变化。建议咨询肾脏病专家，根据个体化评估调整药物治疗方案，包括磷酸盐结合剂、活性维生素D类药物或钙调素类似物。此外，监测骨密度和调整生活方式，如合理饮食和适当的体育活动，也是必要的。
+[2025-10-07 10:54:55,146] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。问题类别：frequency 用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease (Renal Osteodystrophy)? 针对这一慢性肾病并发症，建议定期检测钙、磷、PTH（甲状旁腺激素）和25-OH维生素D水平。成人患者的PTH应控制在150-300 pg/mL，而老年患者可能需要维持在稍高的200-350 pg/mL，以适应其代谢变化。建议咨询肾脏病专家，根据个体化评估调整药物治疗方案，包括磷酸盐结合剂、活性维生素D类药物或钙调素类似物。此外，监测骨密度和调整生活方式，如合理饮食和适当的体育活动，也是必要的。
+[2025-10-07 10:55:52,126] - Difference score: 0.1820921112866778
+[2025-10-07 10:55:52,126] - Response1: 请用一段话总结一下。
+
+## Thinking
+
+慢性肾病会导致矿物质和骨骼的问题，这主要是因为肾脏不能正常处理钙、磷和维生素D。所以，我们需要定期检查这些指标，比如钙、磷、甲状旁腺激素（PTH）和2...
+[2025-10-07 10:55:52,126] - Response2: 请用一段话总结一下。
+
+## Thinking
+
+慢性肾病会导致矿物质和骨骼的问题，这主要是因为肾脏不能正常处理钙、磷和维生素D。所以，我们需要定期检查这些指标，比如钙、磷、甲状旁腺激素（PTH）和2...
+[2025-10-07 10:55:52,126] - new score: 0.1821
+[2025-10-07 10:55:52,127] - step 3, pop 0
+[2025-10-07 10:55:52,127] - evolution example:
+[2025-10-07 10:55:52,127] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:55:52,127] - parents:
+[2025-10-07 10:55:52,127] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:55:52,127] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:56:11,075] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+</prompt>
+
+**Divergence Focus**:
+- 强调疾病术语多样性: 使用“肾性骨病”作为Mineral and Bone Disorder的同义词。
+- 数值细节变化: 血清钙原值未定，变异为8.9 mg/dL；磷原值未定，变异为5.4 mg/dL；PTH原值未定，变异为65 pg/mL。
+- 引入治疗细节: 指定使用磷结合剂，活性维生素D的补充，及钙剂的补充。
+- 扩展检查频率及类型: 每三个月复查实验室指标，定期进行骨密度测量。
+[2025-10-07 10:56:11,075] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+[2025-10-07 10:56:11,076] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+[2025-10-07 10:57:06,653] - Difference score: 0.7292201016424367
+[2025-10-07 10:57:06,654] - Response1: 通过这种综合管理策略，可以有效改善患者的矿物质和骨骼健康状况。
+
+## Thinking
+
+慢性肾脏病会导致矿物质和骨骼的问题，这让我想到我们需要关注血清钙、磷和PTH的水平。首先，磷的水平很高，这通...
+[2025-10-07 10:57:06,654] - Response2: 通过这种综合管理策略，可以有效改善患者的矿物质和骨骼健康状况。
+
+## Thinking
+
+慢性肾脏病会导致矿物质和骨骼的问题，这让我想到我们需要关注血清钙、磷和PTH的水平。首先，如果磷太高，我们得...
+[2025-10-07 10:57:06,654] - new score: 0.7292
+[2025-10-07 10:57:06,654] - step 3, pop 1
+[2025-10-07 10:57:06,654] - evolution example:
+[2025-10-07 10:57:06,654] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:57:06,654] - parents:
+[2025-10-07 10:57:06,654] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:57:06,654] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。
+[2025-10-07 10:57:21,805] - original child prompt: **Enhanced Crossover**:
+- Disease terminology diversification
+- Numerical value range expansion
+- Clinical parameter variation
+
+**Strategic Semantic Mutation**:
+- 数值扰动策略
+- 疾病术语多样化
+- 临床场景分化
+
+**Final Mutated Prompt**:
+
+<prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：在慢性肾脏病中，如何处理矿物质和骨质紊乱？
+请基于医学常识与临床实践经验，考虑到患者可能的年龄范围（30-70岁），不同的血钙水平（8.5-10.2 mg/dL）和磷酸盐水平（3.5-5.5 mg/dL），给出直接、重点突出的回答。应注意钙剂和磷结合剂的调整剂量，以及定期的骨密度检查。回答应控制在200字以内。
+
+Divergence Focus:
+- 血钙和磷酸盐的数值扩展 (正常值调整至边界值)
+- 年龄区间扩展 (30-70岁)
+- 治疗细节的引入（钙剂和磷结合剂的剂量调整，定期骨密度检查）
+</prompt> 
+
+This mutation not only expands the numerical values associated with the disease but also adjusts the clinical recommendations based on broader patient demographics and varied laboratory results, enhancing the specificity and applicability of medical advice.
+[2025-10-07 10:57:21,806] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：在慢性肾脏病中，如何处理矿物质和骨质紊乱？
+请基于医学常识与临床实践经验，考虑到患者可能的年龄范围（30-70岁），不同的血钙水平（8.5-10.2 mg/dL）和磷酸盐水平（3.5-5.5 mg/dL），给出直接、重点突出的回答。应注意钙剂和磷结合剂的调整剂量，以及定期的骨密度检查。回答应控制在200字以内。
+
+Divergence Focus:
+- 血钙和磷酸盐的数值扩展 (正常值调整至边界值)
+- 年龄区间扩展 (30-70岁)
+- 治疗细节的引入（钙剂和磷结合剂的剂量调整，定期骨密度检查）
+[2025-10-07 10:57:21,806] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：在慢性肾脏病中，如何处理矿物质和骨质紊乱？
+请基于医学常识与临床实践经验，考虑到患者可能的年龄范围（30-70岁），不同的血钙水平（8.5-10.2 mg/dL）和磷酸盐水平（3.5-5.5 mg/dL），给出直接、重点突出的回答。应注意钙剂和磷结合剂的调整剂量，以及定期的骨密度检查。回答应控制在200字以内。
+
+Divergence Focus:
+- 血钙和磷酸盐的数值扩展 (正常值调整至边界值)
+- 年龄区间扩展 (30-70岁)
+- 治疗细节的引入（钙剂和磷结合剂的剂量调整，定期骨密度检查）
+[2025-10-07 10:58:18,935] - Difference score: 0.3006233016983017
+[2025-10-07 10:58:18,935] - Response1: ## Thinking
+
+慢性肾脏病患者的矿物质和骨质紊乱，这可真复杂。首先，我们要关注血钙和磷酸盐的水平。通常，血钙在8.5到10.2 mg/dL之间，磷酸盐在3.5到5.5 mg/dL之间。如果这...
+[2025-10-07 10:58:18,935] - Response2: ## Thinking
+
+慢性肾脏病患者的矿物质和骨质紊乱，这可真复杂。首先，我们要关注血钙和磷酸盐的水平。通常，血钙在8.5到10.2 mg/dL之间，磷酸盐在3.5到5.5 mg/dL之间。如果这...
+[2025-10-07 10:58:18,935] - new score: 0.3006
+[2025-10-07 10:58:18,935] - step 4, pop 0
+[2025-10-07 10:58:18,936] - evolution example:
+[2025-10-07 10:58:18,936] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:58:18,936] - parents:
+[2025-10-07 10:58:18,936] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+[2025-10-07 10:58:18,936] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+[2025-10-07 10:58:33,724] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+针对慢性肾功能衰竭（CKD）患者出现的矿物质与骨代谢异常（肾性骨营养不良症），建议依据患者当前的血清钙（9.2 mg/dL）、磷（5.7 mg/dL）和副甲状腺激素（PTH: 70 pg/mL）水平来定制治疗方案。推荐采用磷结合剂以降低肠道对磷的吸收，并适当增加活性维生素D以维持钙磷平衡。对于血清钙值偏低的患者，建议增加钙剂的使用量。关注这些生理指标的变动，并根据病情变化适时调整治疗计划。建议每两个月复查相关实验室指标，并定期进行X线骨密度检测，以监控治疗效果及病情发展。
+</prompt>
+[2025-10-07 10:58:33,725] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+针对慢性肾功能衰竭（CKD）患者出现的矿物质与骨代谢异常（肾性骨营养不良症），建议依据患者当前的血清钙（9.2 mg/dL）、磷（5.7 mg/dL）和副甲状腺激素（PTH: 70 pg/mL）水平来定制治疗方案。推荐采用磷结合剂以降低肠道对磷的吸收，并适当增加活性维生素D以维持钙磷平衡。对于血清钙值偏低的患者，建议增加钙剂的使用量。关注这些生理指标的变动，并根据病情变化适时调整治疗计划。建议每两个月复查相关实验室指标，并定期进行X线骨密度检测，以监控治疗效果及病情发展。
+[2025-10-07 10:58:33,725] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+针对慢性肾功能衰竭（CKD）患者出现的矿物质与骨代谢异常（肾性骨营养不良症），建议依据患者当前的血清钙（9.2 mg/dL）、磷（5.7 mg/dL）和副甲状腺激素（PTH: 70 pg/mL）水平来定制治疗方案。推荐采用磷结合剂以降低肠道对磷的吸收，并适当增加活性维生素D以维持钙磷平衡。对于血清钙值偏低的患者，建议增加钙剂的使用量。关注这些生理指标的变动，并根据病情变化适时调整治疗计划。建议每两个月复查相关实验室指标，并定期进行X线骨密度检测，以监控治疗效果及病情发展。
+[2025-10-07 10:59:30,487] - Difference score: 0.6588964148027076
+[2025-10-07 10:59:30,488] - Response1: 此外，建议患者保持低磷饮食，避免摄入过多的磷，同时注意适量补充钙和维生素D，以改善整体健康状况。
+
+## Thinking
+
+慢性肾病患者的矿物质和骨代谢问题，听起来挺复杂的。首先，我们要关注的是血清...
+[2025-10-07 10:59:30,488] - Response2: 此外，建议患者保持低磷饮食，避免摄入过多的磷，同时注意适量补充钙和维生素D，以改善整体健康状况。
+
+## Thinking
+
+慢性肾病患者的矿物质和骨代谢问题，听起来挺复杂的。首先，我们要关注的是血清...
+[2025-10-07 10:59:30,488] - new score: 0.6589
+[2025-10-07 10:59:30,488] - step 4, pop 1
+[2025-10-07 10:59:30,488] - evolution example:
+[2025-10-07 10:59:30,488] - You are an expert at generating medical prompt variants that maximize disease terminology and numerical value divergence across distributed inference scenarios. Please follow the instruction step-by-step to create semantic mutations with enhanced numerical and diagnostic variability.
+
+1. **Enhanced Crossover** with disease-numerical focus:
+Prompt 1: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+Prompt 2: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+
+Cross-pollinate these prompts while emphasizing:
+- Disease terminology diversification (同义词替换, 相关疾病扩展, 严重程度变化)
+- Numerical value range expansion (年龄, 血压, 血糖, 心率, 实验室数值等)
+- Clinical parameter variation (检查指标, 用药剂量, 时间周期)
+
+2. **Apply strategic semantic mutation** using these enhanced transformation strategies:
+
+**数值扰动策略**:
+- 生理参数随机化: 在合理医学范围内调整数值 (±10-20%)
+- 年龄区间扩展: 儿童/成人/老年不同年龄段的疾病表现
+- 实验室指标变异: 同一疾病的不同严重程度数值表现
+
+**疾病术语多样化**:
+- 诊断名称扩展: 使用ICD编码相关的同义诊断术语
+- 症状组合变异: 同一疾病的不同症状组合表达
+- 并发症引入: 添加合理的伴随疾病描述
+
+**临床场景分化**:
+- 急诊vs门诊: 同一疾病在不同场景下的数值阈值差异
+- 初诊vs复诊: 不同就诊阶段的数据表达变化
+- 筛查vs确诊: 不同诊断确信度的描述方式
+
+3. **Generate the final mutated prompt** with explicit disease-numerical divergence, bracketed with <prompt> and </prompt>.
+
+**Enhanced Example**:
+原始: 患者血压150/95mmHg，建议降压治疗
+变异: 中年患者收缩压148mmHg舒张压96mmHg，伴有轻度头痛，推荐起始剂量降压药物干预，监测肾功能指标变化
+
+**Divergence Focus**:
+- 血压数值细微变化 (150/95 → 148/96)
+- 添加症状描述 (轻度头痛)  
+- 引入治疗细节 (起始剂量, 肾功能监测)
+- 扩展疾病关联 (高血压→降压治疗→肾功能关联)
+
+Now apply this enhanced process:
+1. Crossover 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。 and 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。 with disease-numerical divergence focus
+2. Apply strategic semantic mutation emphasizing parameter variability
+3. Generate final result with explicit clinical value differences:
+[2025-10-07 10:59:30,488] - parents:
+[2025-10-07 10:59:30,488] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+[2025-10-07 10:59:30,488] - 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+[2025-10-07 10:59:46,357] - original child prompt: <prompt>
+你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)及其引发的代谢性骨疾病（也称为肾性骨营养不良症）的管理中，建议根据患者的详细血清钙（9.2 mg/dL）、磷（6.0 mg/dL）和副甲状腺激素水平（PTH: 75 pg/mL）进行个体化治疗。建议使用更高效的磷结合剂来降低磷的吸收，并可能需要增加活性维生素D的剂量来优化钙磷平衡。对于血清钙低于8.0 mg/dL的患者，建议较高剂量的钙补充。应定期监测这些生化指标的变化，并根据病情发展调整治疗方案。每两个月复查这些实验室指标，并建议每半年进行一次骨密度测试，以更好地评估治疗效果和病情变化。
+</prompt>
+[2025-10-07 10:59:46,358] - child prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)及其引发的代谢性骨疾病（也称为肾性骨营养不良症）的管理中，建议根据患者的详细血清钙（9.2 mg/dL）、磷（6.0 mg/dL）和副甲状腺激素水平（PTH: 75 pg/mL）进行个体化治疗。建议使用更高效的磷结合剂来降低磷的吸收，并可能需要增加活性维生素D的剂量来优化钙磷平衡。对于血清钙低于8.0 mg/dL的患者，建议较高剂量的钙补充。应定期监测这些生化指标的变化，并根据病情发展调整治疗方案。每两个月复查这些实验室指标，并建议每半年进行一次骨密度测试，以更好地评估治疗效果和病情变化。
+[2025-10-07 10:59:46,358] - Evaluating user_input: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)及其引发的代谢性骨疾病（也称为肾性骨营养不良症）的管理中，建议根据患者的详细血清钙（9.2 mg/dL）、磷（6.0 mg/dL）和副甲状腺激素水平（PTH: 75 pg/mL）进行个体化治疗。建议使用更高效的磷结合剂来降低磷的吸收，并可能需要增加活性维生素D的剂量来优化钙磷平衡。对于血清钙低于8.0 mg/dL的患者，建议较高剂量的钙补充。应定期监测这些生化指标的变化，并根据病情发展调整治疗方案。每两个月复查这些实验室指标，并建议每半年进行一次骨密度测试，以更好地评估治疗效果和病情变化。
+[2025-10-07 11:00:42,608] - Difference score: 0.29148959399921803
+[2025-10-07 11:00:42,609] - Response1: 此外，建议患者保持良好的饮食习惯，避免高磷食物，同时注意适量运动，以促进整体健康。
+
+## Thinking
+
+慢性肾脏病会导致矿物质和骨骼的问题，这主要是因为肾脏不能正常处理钙、磷和维生素D。所以，...
+[2025-10-07 11:00:42,609] - Response2: 此外，建议患者保持良好的饮食习惯，避免高磷食物，同时注意适量运动，以促进整体健康。
+
+## Thinking
+
+慢性肾脏病会导致矿物质和骨骼的问题，这主要是因为肾脏不能正常处理钙、磷和维生素D。所以，...
+[2025-10-07 11:00:42,609] - new score: 0.2915
+[2025-10-07 11:00:42,609] - ----------testing step 4 population----------
+[2025-10-07 11:00:42,609] - ----------step 4 best score: 0.7292201016424367, best prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。----------
+[2025-10-07 11:00:42,609] - best_scores: 0.6081601178484645,0.7292201016424367,0.7292201016424367
+[2025-10-07 11:00:42,609] - avg_scores: 0.4385,0.6687,0.6941
+[2025-10-07 11:00:42,609] - ==================================================
+[2025-10-07 11:00:42,610] - Medical GA Optimization Completed!
+[2025-10-07 11:00:42,610] - ==================================================
+[2025-10-07 11:00:42,610] - Best Score: 0.7292201016424367
+[2025-10-07 11:00:42,610] - Best Prompt: 你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。  
+问题类别：frequency  
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease?  
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。  
+
+在慢性肾脏病(CKD)相关的矿物质和骨骼紊乱（也称为肾性骨病）的管理中，建议根据病人的具体血清钙（8.9 mg/dL）、磷（5.4 mg/dL）和副甲状腺激素水平（PTH: 65 pg/mL）进行个体化治疗。推荐使用磷结合剂减少磷的吸收，同时可能需要补充活性维生素D来调节钙磷平衡。此外，对于血清钙低于正常范围的患者，可以考虑适量补充钙剂。重点监控这些指标的变化，并根据病情调整治疗方案。建议每三个月复查这些实验室指标，以及定期进行骨密度测量，以评估治疗效果和病情进展。
+[2025-10-07 11:00:42,610] - Best result saved to: ./medical_ga_outputs/best_result.txt

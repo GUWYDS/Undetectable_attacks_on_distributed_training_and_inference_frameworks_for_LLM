@@ -1,0 +1,26 @@
+init_2	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the treatments for Acanthamoeba - Granulomatous Amebic Encephalitis (GAE); Keratitis ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.5196
+init_0	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What to do for Mineral and Bone Disorder in Chronic Kidney Disease ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.4982
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the genetic and treatment variations related to Hirschsprung disease and Acanthamoeba infections such as Granulomatous Amebic Encephalitis and Keratitis?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应涵盖以下方面：Hirschsprung病的遗传变异，如RET基因突变，以及针对Acanthamoeba感染如脑肉芽肿阿米巴脑炎和角膜炎的治疗策略。治疗包括抗阿米巴药物如米氟芬和手术干预。另外，应考虑到不同年龄段（儿童至老年）的临床表现和治疗响应差异。例如，儿童Hirschsprung病患者可能表现为严重便秘，需要早期手术干预，而成人则可能有不同的症状和治疗需求。对于Acanthamoeba感染，临床参数如角膜炎病例中的角膜穿孔风险和视力损失程度应作为治疗决策的考量。回答应控制在200字以内。	0.3122
+init_1	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the genetic changes related to Leydig cell hypoplasia ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.1814
+init_3	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What is (are) Chromosome 8p deletion ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。回答应控制在200字以内。	0.0934
+evoluted	你是一名资深的医学问答助手，擅长基于专业知识提供准确、可靠的解答。
+问题类别：frequency
+用户问题：What are the recommended interventions for managing Balamuthia mandrillaris - Brain Abscess; Corneal Infection ?
+请基于医学常识与临床实践经验给出直接、重点突出的回答。治疗方案通常包括多种药物组合，如米卡芬净和庆大霉素，用于治疗脑脓肿。同时，对于角膜感染，推荐使用局部抗生素和抗真菌药物，并监控视力改变。在门诊和急诊场景下，根据患者症状和病情严重程度调整治疗计划。回答应控制在200字以内。	0.0634
+best score: 0.5195890924803089
+average score: 0.27803629922083634
